@@ -1,11 +1,18 @@
-<script setup xmlns="" >
+<script>
+import {defineComponent} from "vue";
+import TopNavbar from "@/components/layout/top-navbar.vue";
+
+export default defineComponent({
+  components: {TopNavbar},
+})
+
 </script>
 
 <template>
-    <main-navbar></main-navbar>
+    <TopNavbar></TopNavbar>
     <main class="page-content">
       <article class="page-content">
-        AA
+        AACCCCCCC
         <br><br><br><br><br><br><br><br>
         <br><br><br><br><br><br><br><br>
         <br><br><br><br><br><br><br><br>
